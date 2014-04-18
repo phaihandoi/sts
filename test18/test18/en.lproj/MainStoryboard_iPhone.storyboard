@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Luh-nl-oGB">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="221" id="JN8-hC-fQK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PFG-v5-zPk">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RqJ-3f-Ynt">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="srg-wC-6vK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rSx-jq-FxF">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nFV-XS-QuU">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nOO-Tv-4CP">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dzV-XI-Oqb">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="wER-7z-qd0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tfU-a8-BjS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="9tm-LQ-mCm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ANL-Sy-G6r">
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="gender:" destination="2" eventType="valueChanged" id="yVt-7Y-rlT"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpj-xa-Fvw">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="save:" destination="2" eventType="touchUpInside" id="9dw-GO-FWd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbM-3A-OM6">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="find:" destination="2" eventType="touchUpInside" id="EvV-md-GL0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh4-oJ-jBb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="PPx-Gv-Npt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RqJ-3f-Ynt" firstAttribute="top" secondItem="3" secondAttribute="top" constant="129" id="0iI-4Y-U3x"/>
+                            <constraint firstItem="PFG-v5-zPk" firstAttribute="leading" secondItem="Luh-nl-oGB" secondAttribute="leading" type="default" id="1dZ-Qt-R97"/>
+                            <constraint firstItem="nFV-XS-QuU" firstAttribute="leading" secondItem="rSx-jq-FxF" secondAttribute="leading" type="default" id="3bV-IS-to8"/>
+                            <constraint firstItem="tfU-a8-BjS" firstAttribute="leading" secondItem="dzV-XI-Oqb" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="7a7-qU-1yd"/>
+                            <constraint firstItem="nOO-Tv-4CP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="270" id="8f8-W4-07o"/>
+                            <constraint firstAttribute="bottom" secondItem="Rh4-oJ-jBb" secondAttribute="bottom" constant="130" id="AQj-Ex-GI1"/>
+                            <constraint firstItem="nOO-Tv-4CP" firstAttribute="trailing" secondItem="nFV-XS-QuU" secondAttribute="trailing" type="default" id="BVy-kG-ohY"/>
+                            <constraint firstItem="Rh4-oJ-jBb" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="Eqw-tz-0P3"/>
+                            <constraint firstItem="PFG-v5-zPk" firstAttribute="top" secondItem="Luh-nl-oGB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KKj-Ot-sR8"/>
+                            <constraint firstItem="nFV-XS-QuU" firstAttribute="top" secondItem="3" secondAttribute="top" constant="224" id="Mbk-8R-hwp"/>
+                            <constraint firstItem="Luh-nl-oGB" firstAttribute="top" secondItem="3" secondAttribute="top" constant="46" id="Njm-kX-pQm"/>
+                            <constraint firstItem="rSx-jq-FxF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="177" id="S2c-7h-14J"/>
+                            <constraint firstItem="rSx-jq-FxF" firstAttribute="leading" secondItem="PFG-v5-zPk" secondAttribute="leading" type="default" id="a0I-1E-KdV"/>
+                            <constraint firstItem="nOO-Tv-4CP" firstAttribute="leading" secondItem="nFV-XS-QuU" secondAttribute="leading" type="default" id="aRq-eV-Uir"/>
+                            <constraint firstItem="Luh-nl-oGB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="91" id="bVV-mf-ayR"/>
+                            <constraint firstItem="rSx-jq-FxF" firstAttribute="trailing" secondItem="PFG-v5-zPk" secondAttribute="trailing" type="default" id="cjg-Bk-AJD"/>
+                            <constraint firstItem="nFV-XS-QuU" firstAttribute="trailing" secondItem="rSx-jq-FxF" secondAttribute="trailing" type="default" id="cnz-4O-mVU"/>
+                            <constraint firstAttribute="bottom" secondItem="ANL-Sy-G6r" secondAttribute="bottom" constant="192" id="eZp-hg-M1M"/>
+                            <constraint firstItem="Vpj-xa-Fvw" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="hG7-YH-YvJ"/>
+                            <constraint firstItem="PFG-v5-zPk" firstAttribute="trailing" secondItem="Luh-nl-oGB" secondAttribute="trailing" type="default" id="l5E-Yw-Xt8"/>
+                            <constraint firstItem="dzV-XI-Oqb" firstAttribute="leading" secondItem="RqJ-3f-Ynt" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="lZr-OI-gol"/>
+                            <constraint firstItem="ANL-Sy-G6r" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="68" id="nVg-pY-uPc"/>
+                            <constraint firstItem="dzV-XI-Oqb" firstAttribute="baseline" secondItem="RqJ-3f-Ynt" secondAttribute="baseline" type="default" id="nqg-ew-K66"/>
+                            <constraint firstAttribute="trailing" secondItem="QbM-3A-OM6" secondAttribute="trailing" constant="37" id="pkb-YF-14I"/>
+                            <constraint firstItem="tfU-a8-BjS" firstAttribute="baseline" secondItem="dzV-XI-Oqb" secondAttribute="baseline" type="default" id="q7v-FR-0Nf"/>
+                            <constraint firstItem="Rh4-oJ-jBb" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="qxz-NT-R6S"/>
+                            <constraint firstItem="RqJ-3f-Ynt" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="109" id="tkz-yb-cwd"/>
+                            <constraint firstItem="QbM-3A-OM6" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="wqy-br-zNK"/>
+                            <constraint firstItem="Vpj-xa-Fvw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="46" id="xpA-qv-LNf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="birthday_day" destination="RqJ-3f-Ynt" id="T5E-dJ-i4b"/>
+                        <outlet property="birthday_month" destination="dzV-XI-Oqb" id="A51-rY-kIc"/>
+                        <outlet property="birthday_year" destination="tfU-a8-BjS" id="ghf-kv-UMA"/>
+                        <outlet property="email" destination="nOO-Tv-4CP" id="eIk-tH-WQc"/>
+                        <outlet property="mobile" destination="nFV-XS-QuU" id="q9H-TH-tnB"/>
+                        <outlet property="phone" destination="rSx-jq-FxF" id="CZJ-Ni-eAV"/>
+                        <outlet property="status" destination="Rh4-oJ-jBb" id="39M-d6-pl6"/>
+                        <outlet property="student_Name" destination="PFG-v5-zPk" id="ExI-pP-0Zp"/>
+                        <outlet property="teacher_Name" destination="Luh-nl-oGB" id="bWN-bV-Z7p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="find:"/>
+                <relationship kind="action" name="gender:"/>
+                <relationship kind="action" name="save:"/>
+                <relationship kind="outlet" name="birthday_day" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="birthday_month" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="birthday_year" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="gender_Text" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="mobile" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="phone" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="status" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="student_Name" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="teacher_Name" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
